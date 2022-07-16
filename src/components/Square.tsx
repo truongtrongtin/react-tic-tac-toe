@@ -1,8 +1,6 @@
-import React from "react";
-
 type SquareProps = {
   value: string;
-  highlight: Boolean | null;
+  highlight: boolean;
   onClick: () => void;
 };
 

@@ -1,4 +1,3 @@
-import React from "react";
 import Square from "./Square";
 
 type BoardProps = {
@@ -22,7 +21,7 @@ function Board({ squares, winLine, onClick }: BoardProps) {
                   key={j}
                   value={squares[index]}
                   onClick={() => onClick(index)}
-                  highlight={winLine && winLine.includes(index)}
+                  highlight={winLine ? winLine.includes(index) : false}
                 />
               );
             })}
