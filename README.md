@@ -1,4 +1,4 @@
-# Tic-tac-toe with functional components, hooks and typescript
+# Tic-tac-toe using React with functional components, hooks and typescript
 
 https://reactjs.org/tutorial/tutorial.html
 
