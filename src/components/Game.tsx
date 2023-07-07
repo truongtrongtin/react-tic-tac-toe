@@ -3,7 +3,7 @@ import Board from "./Board";
 
 function Game() {
   const [history, setHistory] = useState([
-    { squares: Array(9).fill(""), latestMoveSquare: 0 },
+    { squares: Array<string>(9).fill(""), latestMoveSquare: 0 },
   ]);
   const [stepNumber, setStepNumber] = useState(0);
   const [xIsNext, setXIsNext] = useState(true);
